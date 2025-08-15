@@ -39,7 +39,8 @@ FROM superstore
 GROUP BY order_year, order_month, Region, Category
 ORDER BY order_year, order_month, Region, Category;
 
-## Repository Structure
+
+##  Repository Structure
 | File Name                | Description |
 |--------------------------|-------------|
 | `sales_trend_analysis.sql` | SQL script containing all steps and queries with comments |
