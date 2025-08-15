@@ -8,7 +8,6 @@ This task helps understand **time-based sales trends** and how to group data eff
 
 ## Tools Used
 - **MySQL Workbench** 
-- Superstore dataset (`Superstore.csv`)
 
 ## Steps Performed
 1. **Extract Month & Year** from `Order Date` using `EXTRACT()` / `STRFTIME()`.
