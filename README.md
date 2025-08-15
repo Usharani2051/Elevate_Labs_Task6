@@ -47,6 +47,3 @@ GROUP BY order_year, order_month, Region, Category
 ORDER BY order_year, order_month, Region, Category;
 
 
-
-
-
