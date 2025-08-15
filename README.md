@@ -23,6 +23,14 @@ This task helps understand **time-based sales trends** and how to group data eff
    - Category
    - Total Quantity Sold
    - Total Profit
+  
+##  Repository Structure
+| File Name                | Description |
+|--------------------------|-------------|
+| `sales_trend_analysis.sql` | SQL script containing all steps and queries with comments |
+| `sales_trend_results.csv`  | Output file showing aggregated monthly sales results |
+| `Superstore.csv`           | Dataset used for analysis |
+| `README.md`                | Documentation for the task |
 
 ##  Example Query
 ```sql
@@ -40,12 +48,6 @@ GROUP BY order_year, order_month, Region, Category
 ORDER BY order_year, order_month, Region, Category;
 
 
-##  Repository Structure
-| File Name                | Description |
-|--------------------------|-------------|
-| `sales_trend_analysis.sql` | SQL script containing all steps and queries with comments |
-| `sales_trend_results.csv`  | Output file showing aggregated monthly sales results |
-| `Superstore.csv`           | Dataset used for analysis |
-| `README.md`                | Documentation for the task |
+
 
 
